@@ -7,3 +7,4 @@ build/
 types/
 tenderly.yaml
 .idea
+test/_keys.json
