@@ -13,7 +13,7 @@ const AirdropMintableToken = artifacts.require("AirdropMintableToken");
 
 
 /*
- INIT GANACHE WITH ganache-cli -m "stereo consider quality wild fat farm symptom bundle laundry side one lemon" --account_keys_path test/_keys.json
+ INIT GANACHE WITH : ganache-cli -m "stereo consider quality wild fat farm symptom bundle laundry side one lemon" --account_keys_path test/_keys.json
  */
 
 contract('Airdrop', async (accounts: string[]) => {
