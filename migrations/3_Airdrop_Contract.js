@@ -9,4 +9,5 @@ module.exports = async function (deployer, network, accounts) {
     const airdropContract = await Airdrop.deployed();
     const ISSUER_ROLE = await airdropMintableToken.ISSUER_ROLE();
     await airdropMintableToken.grantRole(ISSUER_ROLE, airdropContract.address);
+    await Airdrop.setAirdropOn();
 };
