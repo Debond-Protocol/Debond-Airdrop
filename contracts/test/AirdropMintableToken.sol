@@ -15,7 +15,7 @@ contract AirdropMintableToken is ERC20, AccessControl, IAirdropMintableToken {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
-    function mintAirdroppedSupply(address _to, uint _amount) external onlyRole(ISSUER_ROLE) {
+    function mintAirdropSupply(address _to, uint _amount) external onlyRole(ISSUER_ROLE) {
         _mint(_to, _amount);
     }
 }
