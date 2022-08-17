@@ -15,5 +15,5 @@ pragma solidity ^0.8.0;
 */
 
 interface IAirdropMintableToken {
-    function mintAirdroppedSupply(address _to, uint _amount) external;
+    function mintAirdropSupply(address _to, uint256 _amount) external;
 }
